@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b06f643ebec4cc14dba2e3c27f93fde6, type: 3}
+  m_Name: CSK_UseHealthPotion
+  m_EditorClassIdentifier: Assembly-CSharp::ConsumableSkill
+  id: 0
+  skillName: "Usar Po\xE7\xE3o de Vida"
+  description: "Pe\xE7\xE3o que cura uma pequena quantidade de vida."
+  icon: {fileID: 21300000, guid: 50304d52022563e41b21b0172f1421dc, type: 3}
+  cooldown: 30
+  resourceType: 0
+  resourceCost: 0
+  animationTrigger: 
+  range: 15
+  itemToConsume: {fileID: 11400000, guid: 18d5b15dfc3cbb44a8ea73048282064f, type: 2}

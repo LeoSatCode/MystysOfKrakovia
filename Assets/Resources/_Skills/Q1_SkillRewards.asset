@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36c3422b1461e4e4e8b36765b38f1c79, type: 3}
+  m_Name: Q1_SkillRewards
+  m_EditorClassIdentifier: Assembly-CSharp::ClassSkillReward
+  rewards:
+  - characterClass: Guerreiro
+    skillReward: {fileID: 11400000, guid: 406a055ccd267e74285c89226fc94c7b, type: 2}
+  - characterClass: Mago
+    skillReward: {fileID: 11400000, guid: ca9d0c0ac428de047b739c4bb176fa64, type: 2}
+  - characterClass: "Cl\xE9rigo"
+    skillReward: {fileID: 11400000, guid: c24e549c5ace967409fc98e367d2da1b, type: 2}
+  - characterClass: Arqueiro
+    skillReward: {fileID: 11400000, guid: 8b01ab5bff7636f4aaa7049d0318a84c, type: 2}

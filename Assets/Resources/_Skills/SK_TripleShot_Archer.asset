@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 220cae84583dd4c4f997270584857f24, type: 3}
+  m_Name: SK_TripleShot_Archer
+  m_EditorClassIdentifier: Assembly-CSharp::MultiShotSkill
+  id: 1
+  skillName: Disparo Triplo
+  description: "Dispara tr\xEAs flechas em dire\xE7\xE3o ao alvo com dano baseado
+    em destreza."
+  icon: {fileID: 21300000, guid: ed22be4659dc2084abb93b35393dc3a4, type: 3}
+  cooldown: 8
+  resourceType: 3
+  resourceCost: 50
+  animationTrigger: Skill1
+  range: 15
+  projectilePrefab: {fileID: 2984963409771411869, guid: 63b46b84b41d12b428a313f1d8aa396f, type: 3}
+  castSound: {fileID: 8300000, guid: 41a490cd75cc5aa4ca8c82570cf151c5, type: 3}
+  spreadAngle: 5

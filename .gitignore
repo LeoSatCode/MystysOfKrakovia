@@ -1,0 +1,18 @@
+# Ignora pastas geradas pelo Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Ignora arquivos de usuário
+*.user
+*.userprefs
+*.sln
+*.csproj
+
+# --- MUITO IMPORTANTE ---
+# Ignora sua chave de App ID do Photon para não vazar!
+Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
