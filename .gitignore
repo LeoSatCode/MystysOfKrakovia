@@ -12,6 +12,11 @@
 *.userprefs
 *.sln
 *.csproj
+*_files/
+*.js
+*.css
+*.html
+*.download
 
 # --- MUITO IMPORTANTE ---
 # Ignora sua chave de App ID do Photon para não vazar!
